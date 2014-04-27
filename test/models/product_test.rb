@@ -35,12 +35,12 @@ class ProductTest < ActiveSupport::TestCase
 
 	def new_product(image_url)
 		Product.new(
-		title:
-		"My Book Title",
-		description:
-		"yyy",
-		price: 1,
-		image_url: image_url)
+			title:
+			"My Book Title",
+			description:
+			"yyy",
+			price: 1,
+			image_url: image_url)
 	end
 
 	test "image url" do
